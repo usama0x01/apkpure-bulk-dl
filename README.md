@@ -41,8 +41,6 @@ python3 apkpure_bulk_downloader.py
 
 - **Asynchronous Downloading**: Utilizes asyncio and aiohttp to perform parallel downloads, making the process faster and more efficient.
 
-- **Random User-Agent Headers**: Ensures anonymity and bypasses bot detection by randomizing User-Agent headers for each request using the fake_useragent library.
-
 - **Progress Bar**: Includes a visually appealing progress bar powered by tqdm to monitor the download progress of each package.
 
 - **Error Handling**: The script gracefully handles errors and notifies you if any packages fail to download.
