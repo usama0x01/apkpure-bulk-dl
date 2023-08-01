@@ -3,7 +3,7 @@
 
 ## Description
 
-APKPure Bulk Downloader is a Python tool that allows you to download multiple Android APK packages from APKPure in parallel, using asyncio and aiohttp. The tool reads a list of package names from a file (`package_list.txt`) and automatically generates the download URLs for the latest version of each package. It includes a progress bar to visualize the download progress, and to enhance privacy, it employs random User-Agent headers for each request using the fake_useragent library.
+APKPure Bulk Downloader is a Python tool that allows you to download multiple Android APK packages from APKPure in parallel, using asyncio and aiohttp. The tool reads a list of package names from a file (`package_list.txt`) and automatically generates the download URLs for the latest version of each package. It includes a progress bar to visualize the download progress.
 
 ## Installation
 
