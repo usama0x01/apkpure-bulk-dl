@@ -7,14 +7,17 @@ async def download_package(package_name, pbar):
     url = f"https://d.apkpure.com/b/APK/{package_name}?version=latest"
     headers = {'User-Agent': UserAgent().random}
 
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url, allow_redirects=True, headers=headers) as response:
-            if response.status == 200:
-                content = await response.read()
-                with open(f"{package_name}.apk", "wb") as f:
-                    f.write(content)
-            else:
-                print(f"Failed to download: {package_name}")
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url, allow_redirects=True, headers=headers) as response:
+                if response.status == 200:
+                    content = await response.read()
+                    with open(f"{package_name}.apk", "wb") as f:
+                        f.write(content)
+                else:
+                    print(f"Failed to download: {package_name}")
+    except aiohttp.ClientError as e:
+        print(f"Error downloading {package_name}: {e}")
 
     pbar.update(1)
 
@@ -31,4 +34,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
