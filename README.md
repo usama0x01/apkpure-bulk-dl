@@ -56,5 +56,3 @@ APKPure Bulk Downloader is intended for legitimate use only. Respect the intelle
 ## Contribution
 
 If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. Contributions from the open-source community are welcome!
-
-```
