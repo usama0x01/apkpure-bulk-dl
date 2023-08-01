@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Prepare a file named `package_list.txt` containing one package name per line, representing the APKs you want to download.
+1. Prepare a file named `package_list.txt` containing one package name per line, representing the APKs you want to download. (com.twitter.android)
 
 2. Run the APKPure Bulk Downloader script:
 
