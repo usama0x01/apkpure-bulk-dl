@@ -1,4 +1,4 @@
-```
+
 # APKPure Bulk Downloader
 
 ## Description
