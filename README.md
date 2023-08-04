@@ -7,21 +7,9 @@ APKPure Bulk Downloader is a Python tool that allows you to download multiple An
 
 ## Installation
 
-1. Clone the repository:
-
 ```bash
-git clone https://github.com/your-username/apkpure-bulk-dl.git
-```
-
-2. Change to the repository directory:
-
-```bash
+git clone https://github.com/Xam-3xPloiTeR-lab/apkpure-bulk-dl.git
 cd apkpure-bulk-dl
-```
-
-3. Install the required Python packages:
-
-```bash
 pip install -r requirements.txt
 ```
 
